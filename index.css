@@ -1,5 +1,10 @@
 body 
 { 
 	font-family: Helvetica, Ariel, Sans-Serif;
-	color: #FCFCFC;
+	color: #111111;
+}
+
+page
+{
+	background-color: #FCFCFC;
 }
