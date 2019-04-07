@@ -8,15 +8,13 @@ body
 
 a
 {
-	color: #358fe2;
+	color: #3080D2;
 	text-decoration: none;
 }
 
-.name_logo
+.header
 {
-	font-size: 2em;
 	text-align: center;
-	float: center;
 }
 
 .header_links a
@@ -24,6 +22,13 @@ a
 	font-size: 1.5em;
 	color: #47565B;
 	text-decoration: none;
+	padding: 6%;
+}
+
+.name_logo
+{
+	font-size: 2em;
+	text-align: center;
 }
 
 #header_links_home
