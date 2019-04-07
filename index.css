@@ -1,7 +1,8 @@
 body 
 { 
 	font-family: Ariel, Helvetica, Sans-Serif;
-	text-align: justify;
+	/* Text align center required for backwards compatibility with IE6 */
+	text-align: center;
 	color: #47565B;
 	background-color: #F8F8F8;
 }
@@ -12,9 +13,24 @@ a
 	text-decoration: none;
 }
 
+p
+{
+	width: 75%;
+	margin: auto auto;
+	text-align: justify;
+}
+
 .header
 {
+	width: 75%;
 	text-align: center;
+	margin: auto auto;
+}
+
+.header_links li
+{
+	display: inline;
+	margin: 4%;
 }
 
 .header_links a
@@ -22,13 +38,13 @@ a
 	font-size: 1.5em;
 	color: #47565B;
 	text-decoration: none;
-	padding: 6%;
 }
 
 .name_logo
 {
 	font-size: 2em;
 	text-align: center;
+	margin: 1em;
 }
 
 #header_links_home
