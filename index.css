@@ -1,13 +1,53 @@
 body 
 { 
 	font-family: Ariel, Helvetica, Sans-Serif;
-	color: #58676C;
-	background-color: #FFFFFF;
+	text-align: justify;
+	color: #47565B;
+	background-color: #F6F6F6;
+}
+
+a
+{
+	color: #358fe2;
+	text-decoration: none;
+}
+
+.header_logo
+{
+	font-size: 2em;
+	color: #358fe2;
 }
 
 .header_links a
 {
-	color: #58676C !important;
+	font-size: 1.5em;
+	color: #47565B;
 	text-decoration: none;
 	float: right;
+}
+
+#header_links_home
+{
+	color: #358FE2;
+}
+
+#header_links_resume
+{
+	color: #F59C1B;
+}
+
+#header_links_projects
+{
+	color: #FF5B57;
+}
+
+#header_links_interests
+{
+	color: #33CC99;
+}
+
+
+a:hover
+{
+	color: #000000;
 }
