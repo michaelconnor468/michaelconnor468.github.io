@@ -5,3 +5,9 @@ body
 	background-color: #FFFFFF;
 }
 
+.header_links a
+{
+	color: #58676C !important;
+	text-decoration: none;
+	float: right;
+}
