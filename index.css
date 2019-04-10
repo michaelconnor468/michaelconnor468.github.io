@@ -13,20 +13,22 @@ a
 	text-decoration: none;
 }
 
-.torso
+a:hover
 {
-	width: 75%;
-	margin: auto auto;
-	padding: 2%;
-	text-align: justify;
-	background-color: #FFFFFF;
+	color: #000000 !important;
 }
+
+/************************************** header **************************************/
 
 .header
 {
-	width: 75%;
 	text-align: center;
-	margin: auto auto;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	margin: 0em;
+	width: 100%;
+	background-color: #888888;
 }
 
 .header_links li
@@ -38,8 +40,19 @@ a
 .header_links a
 {
 	font-size: 1.5em;
-	color: #47565B;
+	color: #FFFFFF;
 	text-decoration: none;
+}
+
+/*************************************** body ***************************************/
+
+.body
+{
+	width: 75%;
+	margin: auto auto;
+	padding: 2%;
+	text-align: justify;
+	background-color: #FFFFFF;
 }
 
 .name_logo
@@ -55,32 +68,3 @@ a
 	color: #888888;
 }
 
-#header_links_home
-{
-	color: #3080D2;
-}
-
-#header_links_resume
-{
-	color: #F0981A;
-}
-
-#header_links_projects
-{
-	color: #F05254;
-}
-
-#header_links_interests
-{
-	color: #34a628;
-}
-
-#header_links_contact
-{
-	color: #af59b5;
-}
-
-a:hover
-{
-	color: #000000 !important;
-}
