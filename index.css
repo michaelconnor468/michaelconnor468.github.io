@@ -1,10 +1,10 @@
 body 
 { 
-	font-family: Ariel, Helvetica, Sans-Serif;
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 	/* Text align center required for backwards compatibility with IE6 */
 	text-align: center;
-	color: #47565B;
-	background-color: #F8F8F8;
+	color: #000000;
+	background-color: #FFFFFF;
 }
 
 a
@@ -15,7 +15,7 @@ a
 
 a:hover
 {
-	color: #000000 !important;
+	color: #000000;
 }
 
 /************************************** header **************************************/
@@ -28,7 +28,7 @@ a:hover
 	left: 0px;
 	margin: 0em;
 	width: 100%;
-	background-color: #888888;
+	background-color: #333333;
 }
 
 .header_links li
@@ -39,9 +39,14 @@ a:hover
 
 .header_links a
 {
-	font-size: 1.5em;
+	font-size: 0.875em;
 	color: #FFFFFF;
 	text-decoration: none;
+}
+
+.header_links a:hover
+{
+	color: #CCCCCC;
 }
 
 /*************************************** body ***************************************/
@@ -49,15 +54,16 @@ a:hover
 .body
 {
 	width: 75%;
-	margin: auto auto;
+	margin: 2em auto 0 auto;
 	padding: 2%;
 	text-align: justify;
-	background-color: #FFFFFF;
+	background-color: #FAFAFA;
 }
 
 .name_logo
 {
 	font-size: 2em;
+	font-weight: 600;
 	text-align: center;
 	margin: auto auto 1em auto;
 }
@@ -65,6 +71,7 @@ a:hover
 #name_logo_title
 {
 	font-size: 0.7em;
-	color: #888888;
+	font-weight: 200;
+	color: #000000;
 }
 
