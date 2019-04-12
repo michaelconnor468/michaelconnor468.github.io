@@ -1,10 +1,20 @@
-body 
+body
 { 
 	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 	/* Text align center required for backwards compatibility with IE6 */
 	text-align: center;
 	color: #000000;
+	height: 100%
 	background-color: #FFFFFF;
+}
+
+html 
+{
+  background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 a
@@ -26,14 +36,13 @@ a:hover
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	margin: 0em;
-	height: 3.1em;
+	height: 3em;
 	width: 100%;
 	background-color: #333333;
 }
 
 .header_links li
-{
+{	
 	display: inline;
 	margin: 4%;
 }
@@ -43,6 +52,7 @@ a:hover
 	font-size: 0.875em;
 	color: #FFFFFF;
 	text-decoration: none;
+	font-weight: 500;
 }
 
 .header_links a:hover
@@ -55,7 +65,7 @@ a:hover
 .body
 {
 	width: 75%;
-	margin: 3.1em auto 0 auto;
+	margin: 3em auto 0 auto;
 	padding: 2%;
 	text-align: justify;
 }
