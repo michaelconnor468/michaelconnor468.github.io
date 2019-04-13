@@ -1,3 +1,5 @@
+header, section, footer, aside, nav, article, figure {display: block;} /* For legacy browsers */
+
 body, html
 { 
 	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
@@ -21,7 +23,7 @@ a:hover
 
 /************************************** header **************************************/
 
-.header
+header
 {
 	text-align: center;
 	position: fixed;
@@ -32,13 +34,13 @@ a:hover
 	background-color: #333333;
 }
 
-.header_links li
+#header_links li
 {	
 	display: inline;
 	margin: 4%;
 }
 
-.header_links a
+#header_links a
 {
 	font-size: 0.875em;
 	color: #FFFFFF;
@@ -46,14 +48,14 @@ a:hover
 	font-weight: 500;
 }
 
-.header_links a:hover
+#header_links a:hover
 {
 	color: #CCCCCC;
 }
 
 /*************************************** body ***************************************/
 
-.body
+#body
 {
 	width: 75%;
 	margin: 3em auto 0 auto;
@@ -61,7 +63,7 @@ a:hover
 	text-align: justify;
 }
 
-.name_logo
+#name_logo
 {
 	font-size: 2em;
 	font-weight: 600;
