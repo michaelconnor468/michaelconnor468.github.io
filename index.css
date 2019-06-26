@@ -6,7 +6,7 @@ body, html
 	/* Text align center required for backwards compatibility with IE6 */
 	text-align: center;
 	color: #000000;
-	height: 100%
+	height: 100%;
 	background-color: #FFFFFF;
 }
 
