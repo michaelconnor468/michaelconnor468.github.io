@@ -35,31 +35,80 @@ a:hover
 	background-color: rgba(0,0,0,0.92);
 }
 
-#header_links
+.inner_header
 {
-	margin-top: 0.75em;
-	margin-bottom: 0em;
+	width: 80%;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
 }
 
-#header_links li
-{	
-	display: inline;
-	margin: 4%;
+#header_logo
+{
+	height: 100%;
+	display: table;
+	float: left;
+}
+
+#header_links
+{
+	float: left;
+	height: 100%;
 }
 
 #header_links a
+{	
+	display: table;
+	float: left;
+	height: 100%;
+	margin: 0em 1em;
+}
+
+#header_links li
 {
 	font-size: 0.75em;
+	display: table-cell;
+	vertical-align: middle;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: 10000;
+}
+
+#header_media_links
+{
+	float: right;
+	height: 100%;
+}
+
+#header_media_links a
+{
+	display: table;
+	float: right;
+	height: 100%;
+	margin: 0em 1em;
+}
+
+#header_media_links li
+{
+	font-size: 0.75em;
+	display: table-cell;
+	vertical-align: middle;
 	color: #FFFFFF;
 	text-decoration: none;
 	font-weight: 500;
+}
+
+.header_media_link_element
+{
+	height: 1em;
+	width: auto;
 }
 
 /*************************************** body ***************************************/
 
 #body
 {
-	width: 75%;
+	width: 72%;
 	margin: 3em auto 0 auto;
 	padding: 2%;
 	text-align: justify;
