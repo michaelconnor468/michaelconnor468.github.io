@@ -119,7 +119,13 @@ a:hover
 	font-size: 2em;
 	font-weight: 600;
 	text-align: center;
-	margin: 18% auto 5% auto;
+	margin: 6% auto 5% auto;
+}
+
+#name_logo_bird
+{
+	height: 8em;
+	width: auto;
 }
 
 #name_logo_title
