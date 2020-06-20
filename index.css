@@ -54,6 +54,7 @@ a:hover
 {
 	float: left;
 	height: 100%;
+	padding: 0em 1em;
 }
 
 #header_links a
@@ -98,6 +99,24 @@ a:hover
 	font-weight: 500;
 }
 
+#header_logo
+{
+	display: table;
+	margin: 0em;
+}
+
+#header_logo_bird
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#header_logo_bird_image
+{
+	height: 2em;
+	width: auto;
+}
+
 .header_media_link_element
 {
 	height: 1em;
@@ -108,7 +127,7 @@ a:hover
 
 #body
 {
-	width: 72%;
+	width: 80%;
 	margin: 3em auto 0 auto;
 	padding: 2%;
 	text-align: justify;
