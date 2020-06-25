@@ -1,10 +1,6 @@
 var DEBUG = true;
 
-if(DEBUG){window.addEventListener('error', function() {this.window.alert("Javascript Debug Exception")}, false);}
-
-function swapPageBody(event, page) {
-    return false;
-}
+if(DEBUG){window.addEventListener('error', function() {this.window.alert('Javascript Debug Exception')}, false);}
 
 function setup() {
     // Navigation events
@@ -13,3 +9,15 @@ function setup() {
 }
 
 window.addEventListener('load', setup, false);
+
+function writeLocalPageHTML(localPage, destinationElement) {
+    var ajaxRequest = new XMLHttpRequest();
+    ajaxRequest.onload = function() { 
+        if ( ajaxRequest.status === 200 ) // Server status ok
+            destinationElement.innerHTML = ajaxRequest.responseText;
+        else
+            console.log('Failed to retrieve loacal page "' + localPage + '" html from the server');
+    }
+    ajaxRequest.open('GET', localPage, true);
+    ajaxRequest.send(null);
+}
