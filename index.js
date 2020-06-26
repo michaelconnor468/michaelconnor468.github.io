@@ -26,6 +26,7 @@ function updateBodyToPage(localPage) {
     body.style.opacity = 0;
     window.setTimeout(function() {
         writeLocalPageHTML(localPage, body);
+        window.scrollTo(0,0);
         window.setTimeout( function() {body.style.opacity = 1;}, 100); // Timeout necessary here to prevent flicker
     }, 600);
 
