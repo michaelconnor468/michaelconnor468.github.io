@@ -1,10 +1,10 @@
 var DEBUG = true;
 
-if(DEBUG){window.addEventListener('error', function() {this.window.alert('Javascript Exception Thrown')}, false);}
+if(DEBUG){window.addEventListener('error', function() {this.window.alert('Javascript Error')}, false);}
 
 function setup() {
-    document.getElementById('header_links').addEventListener('mouseover', function(event) {this.style.transition = '0.4s'; event.target.style.color = '#cccccc';} , false);
-    document.getElementById('header_links').addEventListener('mouseout', function(event) {this.style.transition = '0.6s'; event.target.style.color = '#ffffff';} , false);
+    document.getElementById('header_links').addEventListener('mouseover', function(event) {event.target.style.transition = '0.4s'; event.target.style.color = '#cccccc';} , false);
+    document.getElementById('header_links').addEventListener('mouseout', function(event) {event.target.style.transition = '0.6s'; event.target.style.color = '#ffffff';} , false);
 
     headerLinks = document.getElementById('header_links').children;
     for ( i = 0; i < headerLinks.length; i++ ) {
@@ -26,7 +26,7 @@ function updateBodyToPage(localPage) {
     body.style.opacity = 0;
     window.setTimeout(function() {
         writeLocalPageHTML(localPage, body);
-        window.scrollY(0);
+        window.scrollTo(window.scrollX, 0);
         window.setTimeout( function() {body.style.opacity = 1;}, 100); // Timeout necessary here to prevent flicker
     }, 600);
 
