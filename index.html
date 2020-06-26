@@ -20,20 +20,21 @@
 </head>
 
 <body>
-	<header> <!-- ###################################################### Start of the navigation header of the webpage ###################################################### -->
+	<header> <!-- ###################################################### Start of header ###################################################### -->
 	<div class="header">
 		<div class="inner_header">
 			<div id="header_logo">
 				<a id="header_logo_bird" href="index.html"><img id="header_logo_bird_image" src="./jay.png"></a>
 			</div>
 			<nav>
+				<!-- data-js_nav attribute overides navigation with smooth js replacement of main_body with html in given file -->>
 				<ul id="header_links">
-					<a href="http://michaelconnor.ca" id="header_links_home"> <li>Home</li></a> 
-					<a href="Resume.pdf" id="header_links_resume" target="_blank"><li>Resume</li></a>
-					<a href="http://github.com/michaelconnor468" id="header_links_projects" target="_blank"><li>Projects</li></a>	
-					<a href="index.html" id="header_links_experience"><li>Experience</li></a>
-					<a href="index.html" id="header_links_interests"><li>Interests</li></a>
-					<a href="index.html" id="header_links_contact"><li>Contact</li></a>
+					<a href="http://michaelconnor.ca" data-js_nav="pages/home.html"> <li>Home</li></a> 
+					<a href="Resume.pdf" data-js_nav="pages/resume.html"><li>Resume</li></a>
+					<a href="http://github.com/michaelconnor468" data-js_nav="pages/projects.html"><li>Projects</li></a>	
+					<a href="index.html" data-js_nav="pages/experience.html"><li>Experience</li></a>
+					<a href="index.html" data-js_nav="pages/interests.html"><li>Interests</li></a>
+					<a href="index.html" data-js_nav="pages/contact.html"><li>Contact</li></a>
 				</ul>
 				<ul id="header_media_links">
 					<a href="https://github.com/michaelconnor468" target="_blank"><li><img src="./github.png" alt="Github" class="header_media_link_element"></li></a>
