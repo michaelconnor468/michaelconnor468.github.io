@@ -58,7 +58,7 @@
 .experience_section_summary
 {
     display: inline-block;
-    text-align: justify;
+    text-align: left;
     font-size: 1.1em;
     padding: 0em;
     margin: 1em 0em;
@@ -68,7 +68,7 @@
 {
     float: right;
     height: auto;
-    width: 28em;
+    width: 32em;
     margin: 2em;
 }
 
