@@ -7,7 +7,8 @@
 	position: fixed;
 	display: block;
     height: 2.8em;
-	width: 80%;
+    width: 80%;
+    margin: 1em 0em;;
 }
 
 .experience_header_left
@@ -58,8 +59,17 @@
 {
     display: inline-block;
     text-align: justify;
+    font-size: 1.1em;
     padding: 0em;
     margin: 1em 0em;
+}
+
+.side_picture
+{
+    float: right;
+    height: auto;
+    width: 28em;
+    margin: 2em;
 }
 
 
