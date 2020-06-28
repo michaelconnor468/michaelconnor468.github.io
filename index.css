@@ -4,6 +4,7 @@ body, html
 { 
 	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 	text-align: center;
+	font-size: 100%;
 	color: #000000;
 	height: 100%;
 	background-color: #FFFFFF;
@@ -55,10 +56,16 @@ a:hover
 	outline: none;
 }
 
+#header_links_wrapper {
+	height: 100%;
+	margin: 0rem;
+}
+
 #header_links
 {
 	float: left;
 	height: 100%;
+	margin: 0rem;
 	padding: 0rem 1rem;
 }
 
@@ -73,7 +80,7 @@ a:hover
 
 #header_links li
 {
-	font-size: 0.75rem;
+	font-size: 0.8rem;
 	display: table-cell;
 	vertical-align: middle;
 	color: #FFFFFF;
@@ -84,6 +91,7 @@ a:hover
 #header_media_links
 {
 	float: right;
+	margin: 0rem;
 	height: 100%;
 }
 
@@ -141,7 +149,7 @@ a:hover
 
 #name_logo
 {
-	font-size: 3rem;
+	font-size: 2rem;
 	font-weight: 600;
 	text-align: center;
 	margin: 4% auto 6% auto;
