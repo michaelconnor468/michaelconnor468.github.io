@@ -50,6 +50,11 @@ a:hover
 	float: left;
 }
 
+#header_logo_bird 
+{
+	outline: none;
+}
+
 #header_links
 {
 	float: left;
@@ -129,7 +134,7 @@ a:hover
 #main_body
 {
 	width: 80%;
-	margin: 3em auto 0 auto;
+	margin: 4% auto 0 auto;
 	padding: 2%;
 	text-align: justify;
 }
@@ -139,19 +144,25 @@ a:hover
 	font-size: 2em;
 	font-weight: 600;
 	text-align: center;
-	margin: 6% auto 5% auto;
+	margin: 6% auto 6% auto;
+}
+
+#name_logo_name
+{
+	margin: 0em;
+}
+
+#name_logo_title
+{
+	margin: 0.2em;
+	font-size: 0.7em;
+	font-weight: 200;
+	color: #000000;
 }
 
 #name_logo_bird
 {
 	height: auto;
 	width: 8em;
-}
-
-#name_logo_title
-{
-	font-size: 0.7em;
-	font-weight: 200;
-	color: #000000;
 }
 

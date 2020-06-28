@@ -1,0 +1,65 @@
+/* Header sections of all independant experience sections */
+
+.experience_header 
+{
+    text-align: center;
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	position: fixed;
+	display: block;
+    height: 2.8em;
+	width: 80%;
+}
+
+.experience_header_left
+{
+    display: table;
+    float: left;
+    height: 100%;
+}
+
+.experience_header_right
+{
+    display: table;
+    float: right;
+    height: 100%;
+}
+
+.experience_header_logo
+{
+    display: table-cell;
+    float: left;
+    height: 2.8em;
+    width: auto;
+    vertical-align: bottom;
+    margin: 0em 0.6em 0em 0em;
+}
+
+.experience_header_title
+{
+    display: table-cell;
+    height: 100%;
+    font-size: 2em;
+    font-weight: 400;
+    margin: 0em;
+    vertical-align: bottom;
+}
+
+.experience_header_time
+{
+    display: table-cell;
+    vertical-align: bottom;
+    font-size: 1em;
+    font-weight: 400;
+    height: 100%;
+    margin: 0em;
+}
+
+.experience_section_summary
+{
+    display: inline-block;
+    text-align: justify;
+    padding: 0em;
+    margin: 1em 0em;
+}
+
+
