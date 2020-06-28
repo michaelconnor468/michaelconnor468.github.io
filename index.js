@@ -34,7 +34,7 @@ function updateBodyToPage(localPage) {
 }
 
 function modifyForMobile() {
-    document.body.fontSize = '120%';
+
 }
 
 function writeLocalPageHTML(localPage, destinationElement) {
