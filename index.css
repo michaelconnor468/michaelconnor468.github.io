@@ -30,7 +30,7 @@ a:hover
 	display: block;
 	top: 0px;
 	left: 0px;
-	height: 2.8em;
+	height: 2.8rem;
 	width: 100%;
 	background-color: rgba(0,0,0,0.92);
 }
@@ -59,7 +59,7 @@ a:hover
 {
 	float: left;
 	height: 100%;
-	padding: 0em 1em;
+	padding: 0rem 1rem;
 }
 
 #header_links a
@@ -68,12 +68,12 @@ a:hover
 	float: left;
 	outline: none;
 	height: 100%;
-	margin: 0em 1em;
+	margin: 0rem 1rem;
 }
 
 #header_links li
 {
-	font-size: 0.75em;
+	font-size: 0.75rem;
 	display: table-cell;
 	vertical-align: middle;
 	color: #FFFFFF;
@@ -97,7 +97,7 @@ a:hover
 
 #header_media_links li
 {
-	font-size: 0.75em;
+	font-size: 0.75rem;
 	display: table-cell;
 	vertical-align: middle;
 	color: #FFFFFF;
@@ -108,7 +108,7 @@ a:hover
 #header_logo
 {
 	display: table;
-	margin: 0em;
+	margin: 0rem;
 }
 
 #header_logo_bird
@@ -119,13 +119,13 @@ a:hover
 
 #header_logo_bird_image
 {
-	height: 2em;
+	height: 2rem;
 	width: auto;
 }
 
 .header_media_link_element
 {
-	height: 1em;
+	height: 1rem;
 	width: auto;
 }
 
@@ -134,28 +134,28 @@ a:hover
 #main_body
 {
 	width: 80%;
-	margin: 4% auto 0 auto;
+	margin: 2.8rem auto 0 auto;
 	padding: 2%;
 	text-align: justify;
 }
 
 #name_logo
 {
-	font-size: 2em;
+	font-size: 3rem;
 	font-weight: 600;
 	text-align: center;
-	margin: 6% auto 6% auto;
+	margin: 4% auto 6% auto;
 }
 
 #name_logo_name
 {
-	margin: 0em;
+	margin: 0rem;
 }
 
 #name_logo_title
 {
-	margin: 0.2em;
-	font-size: 0.7em;
+	margin: 0.2rem;
+	font-size: 2rem;
 	font-weight: 200;
 	color: #000000;
 }
@@ -163,6 +163,6 @@ a:hover
 #name_logo_bird
 {
 	height: auto;
-	width: 8em;
+	width: 16rem;
 }
 
