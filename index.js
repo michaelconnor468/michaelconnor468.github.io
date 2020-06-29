@@ -2,6 +2,8 @@ var DEBUG = true;
 
 if(DEBUG){window.addEventListener('error', function() {this.window.alert('Javascript Error')}, false);}
 
+updateBodyToPage('pages/home/home.html');
+
 function setup() {
     modifyForMobile();
 
@@ -12,18 +14,23 @@ function setup() {
     for ( i = 0; i < headerLinks.length; i++ ) {
         headerLink = headerLinks.item(i);
         if ( headerLink.hasAttribute('data-js_nav') ) {
-            headerLink.addEventListener('click', function(event) { updateBodyToPage(this.getAttribute('data-js_nav')); event.preventDefault(); event.stopPropagation(); }, false);
-            headerLink.addEventListener('keydown', function(event) { if(event.keycode == 13) updateBodyToPage(this.getAttribute('data-js_nav')); event.preventDefault(); event.stopPropagation(); }, false);
+            headerLink.addEventListener('click', function(event) { updateBodyToPage(this.getAttribute('data-js_nav'), false); event.preventDefault(); event.stopPropagation(); }, false);
+            headerLink.addEventListener('keydown', function(event) { if(event.keycode == 13) updateBodyToPage(this.getAttribute('data-js_nav'), false); event.preventDefault(); event.stopPropagation(); }, false);
         }
     }
-    document.getElementById('header_logo_bird').addEventListener('click', function(event) { updateBodyToPage(this.getAttribute('data-js_nav')); event.preventDefault(); event.stopPropagation(); }, false);
-    document.getElementById('header_logo_bird').addEventListener('keydown', function(event) { updateBodyToPage(this.getAttribute('data-js_nav')); event.preventDefault(); event.stopPropagation(); }, false);
+    document.getElementById('header_logo_bird').addEventListener('click', function(event) { updateBodyToPage(this.getAttribute('data-js_nav'), false); event.preventDefault(); event.stopPropagation(); }, false);
+    document.getElementById('header_logo_bird').addEventListener('keydown', function(event) { updateBodyToPage(this.getAttribute('data-js_nav'), false); event.preventDefault(); event.stopPropagation(); }, false);
 }
 
 window.addEventListener('load', setup, false);
 
-function updateBodyToPage(localPage) {
+function updateBodyToPage(localPage, isInstant = true) {
     var body = document.getElementById('main_body');
+    if ( isInstant ) {
+        writeLocalPageHTML(localPage, body);
+        window.scrollTo(window.scrollX, 0);
+        return;
+    }
     body.style.transition = 'opacity '+0.6+'s ease';
     body.style.opacity = 0;
     window.setTimeout(function() {
