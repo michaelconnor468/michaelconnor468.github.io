@@ -11,17 +11,19 @@
     margin: 1rem 0rem;;
 }
 
-.experience_header_left
+.experience_header_outer
 {
     display: table;
     float: left;
     height: 100%;
 }
 
-.experience_header_right
+.experience_header_inner
 {
-    display: table;
-    float: right;
+    display: block;
+    float: left;
+    clear: left;
+    margin: 1rem 0rem;
     height: 100%;
 }
 
@@ -39,9 +41,8 @@
 {
     display: table-cell;
     height: 100%;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 600;
-    margin: 0rem;
     vertical-align: bottom;
 }
 
