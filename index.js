@@ -5,7 +5,7 @@ if(DEBUG){window.addEventListener('error', function() {this.window.alert('Javasc
 updateBodyToPage('pages/home/home.html');
 
 function setup() {
-    modifyForMobile();
+    if(isMobile()) modifyForMobile();
 
     document.getElementById('header_links').addEventListener('mouseover', function(event) {event.target.style.transition = '0.4s'; event.target.style.color = '#cccccc';} , false);
     document.getElementById('header_links').addEventListener('mouseout', function(event) {event.target.style.transition = '0.6s'; event.target.style.color = '#ffffff';} , false);
@@ -41,7 +41,8 @@ function updateBodyToPage(localPage, isInstant = true) {
 }
 
 function modifyForMobile() {
-
+    document.getElementById('header_media_links').style.display = "none";
+    document.body.style.fontSize = "120%";
 }
 
 function writeLocalPageHTML(localPage, destinationElement) {
