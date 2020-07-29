@@ -6,22 +6,24 @@
 	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 	position: fixed;
 	display: block;
-    height: 2.8em;
+    height: 2.8rem;
     width: 80%;
-    margin: 2em 0em;;
+    margin: 1rem 0rem;;
 }
 
-.experience_header_left
+.experience_header_outer
 {
     display: table;
     float: left;
     height: 100%;
 }
 
-.experience_header_right
+.experience_header_inner
 {
-    display: table;
-    float: right;
+    display: block;
+    float: left;
+    clear: left;
+    margin: 1rem 0rem;
     height: 100%;
 }
 
@@ -29,19 +31,18 @@
 {
     display: table-cell;
     float: left;
-    height: 2.8em;
+    height: 2.8rem;
     width: auto;
     vertical-align: bottom;
-    margin: 0em 0.6em 0em 0em;
+    margin: 0rem 0.6rem 0rem 0rem;
 }
 
 .experience_header_title
 {
     display: table-cell;
     height: 100%;
-    font-size: 2em;
-    font-weight: 400;
-    margin: 0em;
+    font-size: 1.2rem;
+    font-weight: 600;
     vertical-align: bottom;
 }
 
@@ -49,25 +50,27 @@
 {
     display: table-cell;
     vertical-align: bottom;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 400;
     height: 100%;
-    margin: 0em;
+    margin: 0rem;
 }
 
 .experience_section_summary
 {
     display: inline-block;
-    text-align: justify;
-    font-size: 1.1em;
-    padding: 0em;
-    margin: 1em 0em;
+    text-align: left;
+    font-size: 1.1rem;
+    padding: 0rem;
+    margin: 1rem 0rem;
 }
 
 .side_picture
 {
-    float: right;
+    clear: both;
     height: auto;
-    width: 100%;
+    width: 42rem;
+    margin: 2rem;
 }
+
 
