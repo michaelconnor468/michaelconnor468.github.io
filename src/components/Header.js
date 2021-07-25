@@ -1,8 +1,10 @@
 import React from 'react';
+import Home from '../pages/Home.js';
+import Resume from '../pages/Resume.js';
 
 import styles from './Header.module.css'
 
-const Header = () => {
+const Header = (props) => {
     return (
         <div className={styles.header}>
             <div className={styles.innerheader}>
@@ -10,11 +12,11 @@ const Header = () => {
                     <img src='resources/images/jay.png' />
                 </nav>
                 <nav>
-                    <button>Home</button>
+                    <button onClick={() => rops.setBody(<Home />)}>Home</button>
                     <button>Projects</button>
                     <button>Experience</button>
                     <button>Interests</button>
-                    <button>Resume</button>
+                    <button onClick={() => props.setBody(<Resume />)}>Resume</button>
                     <button>Contact</button>
                 </nav>
                 <nav className={styles.socials}>
