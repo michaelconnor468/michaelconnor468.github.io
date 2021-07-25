@@ -1,6 +1,6 @@
 const content = [
     {
-        image: 'resources/images/nanopay.png',
+        image: 'resources/images/nexjhealth.png',
         title: 'Software Engineer',
         info: {
             start: new Date('March 22, 2021'),
