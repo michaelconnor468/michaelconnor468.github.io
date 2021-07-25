@@ -4,7 +4,6 @@
     display: flex;
     margin: auto;
     height: 100%;
-    width: 80%;
     align-items: center;
     flex-direction: column;
 }
@@ -16,7 +15,7 @@
 .home img {
     height: auto;
     width: 16rem;
-    margin-top: 18%;
+    margin-top: 12rem;
 }
 
 .home h1 {

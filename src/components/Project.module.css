@@ -1,0 +1,50 @@
+.project {
+    padding: 2rem 10%;
+    display: flex;
+}
+
+.image {
+    height: 100%;
+    margin-right: 4rem;
+}
+
+.image img {
+    max-width: 18rem;
+    max-height: 3rem;
+    height: auto;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    font-size: 1.2rem;
+    flex-direction: column;
+}
+
+.content h1 {
+    margin: 0rem;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.content h1 a {
+    font-weight: bold;
+    text-decoration: none;
+    color: darkred;
+}
+
+.info {
+    color: #606060;
+    font-weight: 300;
+}
+
+.content ul {
+    margin: 0;
+    margin-left: 2rem;
+    padding: 0;
+}
+
+.content hr {
+    border-top: 1px solid gray;
+    width: 100%;
+}
