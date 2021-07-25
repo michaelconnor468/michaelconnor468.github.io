@@ -12,7 +12,7 @@ const Header = (props) => {
                     <img src='resources/images/jay.png' />
                 </nav>
                 <nav>
-                    <button onClick={() => rops.setBody(<Home />)}>Home</button>
+                    <button onClick={() => props.setBody(<Home />)}>Home</button>
                     <button>Projects</button>
                     <button>Experience</button>
                     <button>Interests</button>
