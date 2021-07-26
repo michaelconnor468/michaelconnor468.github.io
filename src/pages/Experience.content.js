@@ -1,7 +1,7 @@
 const content = [
     {
         image: 'resources/images/nexjhealth.png',
-        title: 'Software Engineer',
+        title: 'Software Developer',
         info: {
             start: new Date('March 22, 2021'),
             end: null
@@ -19,7 +19,7 @@ const content = [
     },
     {
         image: 'resources/images/nanopay.png',
-        title: 'Software Engineer Intern',
+        title: 'Software Developer Intern',
         info: {
             start: new Date('May 13, 2019'),
             end: new Date('December 20, 2019')
