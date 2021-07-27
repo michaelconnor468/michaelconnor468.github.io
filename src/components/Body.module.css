@@ -1,6 +1,11 @@
 .body {
     width: 90%;
-    margin: 2.8rem auto 0rem auto;
+    margin: 0rem auto;
+}
+
+.scrollbody {
+    margin-top: 2.8rem;
+    overflow: scroll;
 }
 
 @media (min-width: 780px) {
