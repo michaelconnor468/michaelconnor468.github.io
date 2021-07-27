@@ -15,7 +15,7 @@
 .home img {
     height: auto;
     width: 16rem;
-    margin-top: 12rem;
+    margin-top: 18vh;
 }
 
 .home h1 {
@@ -33,8 +33,50 @@
     text-align: center;
 }
 
+.education {
+    display: flex;
+    margin: 24vh 0 0vh 0;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.education h1 {
+    margin: 0rem;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.education img {
+    margin: 0;
+    width: 250px;
+    height: auto;
+    padding-bottom: 1rem;
+}
+
+.education h1 a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.education h2 {
+    color: #606060;
+    font-size: 1em;
+    font-weight: 300;
+}
+
 @media (max-width: 600px) {
     .home img {
-        margin-top: 6rem;
+        margin: 0rem;
+    }
+
+    .education {
+        margin-top: 4rem;
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 900px) {
+    .education > div {
+        width: 250px;
     }
 }

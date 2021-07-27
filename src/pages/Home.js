@@ -11,7 +11,20 @@ const Home = () => {
             <p>Welcome to my webpage! I am a software engineer currently studying for my MSCS at the Georgia Institute of Technology. 
                 I enjoy building and learning new things while meeting great and like-minded people. My interests are a whole host of
                 subjects including mathematics, systems engineering, networking, and compilers. Feel free to browse my projects,  
-                connect with me, or just say hello!</p>
+                connect with me, or just say hello!
+            </p>
+            <div className={styles.education}>
+                <div>
+                    <img src='resources/images/uoft.png' />
+                    <h1><b>Bachelor's in Computer Science</b> at <a>University of Toronto</a></h1>
+                    <h2>2017-2021</h2>
+                </div>
+                <div>
+                    <img src='resources/images/gatech.gif' />
+                    <h1><b>Master's in Computer Science</b> at <a>Georgia Institute of Technology</a></h1>
+                    <h2>2021-2023</h2>
+                </div>
+            </div>
         </div>
     );
 }
