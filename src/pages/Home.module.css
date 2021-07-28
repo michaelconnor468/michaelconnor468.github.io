@@ -37,7 +37,12 @@
     display: flex;
     margin: 12vh 0 0vh 0;
     width: 90%;
+    align-items: center;
     justify-content: space-between;
+}
+
+.education div {
+    margin: 1rem 0rem;
 }
 
 .education h1 {

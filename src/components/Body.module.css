@@ -1,13 +1,13 @@
 .body {
     width: 90%;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0rem auto;
 }
 
 .scrollbody {
     margin-top: 2.8rem;
     background-color: white;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 @media (min-width: 780px) {
