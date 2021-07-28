@@ -35,7 +35,7 @@
 
 .education {
     display: flex;
-    margin: 24vh 0 0vh 0;
+    margin: 12vh 0 0vh 0;
     width: 90%;
     justify-content: space-between;
 }
