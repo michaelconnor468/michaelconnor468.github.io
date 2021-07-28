@@ -10,8 +10,8 @@
 }
 
 .image img {
-    max-width: 18rem;
-    max-height: 3rem;
+    width: 14rem;
+    max-height: 4rem;
     height: auto;
 }
 

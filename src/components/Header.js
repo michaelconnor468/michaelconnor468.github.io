@@ -15,16 +15,16 @@ const Header = (props) => {
                     <img src='resources/images/jay.png' onClick={() => props.setBody(<Home />)}/>
                 </div>
                 <nav className={navOpen ? styles.navopen : styles.navclosed}>
-                    <button onClick={() => {setNavOpen(false); props.setBody(<Home />)}}>Home</button>
-                    <button onClick={() => {setNavOpen(false); props.setBody(<Projects />)}}>Projects</button>
-                    <button onClick={() => {setNavOpen(false); props.setBody(<Experience />)}}>Experience</button>
+                    <button onClick={() => {setNavOpen(false); props.setBody(<Home />);}}>Home</button>
+                    <button onClick={() => {setNavOpen(false); props.setBody(<Experience />);}}>Experience</button>
+                    <button onClick={() => {setNavOpen(false); props.setBody(<Projects />);}}>Projects</button>
                     {/*<button>Interests</button>*/}
-                    <button onClick={() => {setNavOpen(false); window.open('resources/Resume.pdf', '_blank')}}>Resume</button>
+                    <button onClick={() => {setNavOpen(false); window.open('resources/Resume.pdf', '_blank');}}>Resume</button>
                     {/*<button>Contact</button>*/}
                 </nav>
                 <nav className={styles.socials}>
-                    <img src='resources/images/linkedin.png' onClick={() => window.open('https://www.linkedin.com/in/michael-c-32a934163', '_blank')}/>
-                    <img src='resources/images/github.png' onClick={() => window.open('https://github.com/michaelconnor468', '_blank')}/>
+                    <div onClick={() => window.open('https://www.linkedin.com/in/michael-c-32a934163', '_blank')}><img src='resources/images/linkedin.png'/></div>
+                    <div onClick={() => window.open('https://github.com/michaelconnor468', '_blank')}><img src='resources/images/github.png'/></div>
                 </nav>
                 <button className={styles.navtoggle} onClick={() => setNavOpen(open => !open)}> <span></span><span></span><span></span> </button>
             </div>

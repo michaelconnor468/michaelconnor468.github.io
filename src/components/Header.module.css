@@ -49,6 +49,10 @@
     width: auto;
 }
 
+.innerheader .socials div:hover {
+    cursor: pointer;
+}
+
 .innerheader div img:hover {
     cursor: pointer;
 }
