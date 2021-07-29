@@ -62,7 +62,7 @@ const content = [
         org: {
             name: 'Foam Framework',
             color: 'red',
-            website: 'https://github.com/michaelconnor468/KrispCompiler'
+            website: 'https://foam-framework.github.io/foam'
         },
         description: [
             'Improved parser to make scripting language more developer friendly'
