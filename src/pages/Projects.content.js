@@ -17,9 +17,9 @@ const content = [
     {
         image: 'resources/images/chatter.png',
         title: 'Real-Time Messaging Web Application',
-        info: 'Javascript   NodeJS   MongoDB',
+        info: 'Typescript   NodeJS   PostgreSQL',
         org: {
-            name: 'chatter.michaelconnor.ca',
+            name: 'Chatter',
             color: 'purple',
             website: 'chatter.michaelconnor.ca'
         },
