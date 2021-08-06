@@ -15,30 +15,18 @@ const content = [
         ]
     },
     {
-        image: 'resources/images/krisp.png',
-        title: 'Krisp Language and Compiler',
-        info: 'Java',
-        org: {
-            name: 'My Github',
-            color: '#33a933',
-            website: 'https://github.com/michaelconnor468/KrispCompiler'
-        },
-        description: [
-            'Front end compiler that generates intermediate machine code easily translatable to x86-64 and ARM',
-            'Krisp is a made up programming language that supports basic constructs such as variables and loops'
-        ]
-    },
-    {
-        image: 'resources/images/quickshop.png',
-        title: 'Shopping Management Application',
+        image: 'resources/images/chatter.png',
+        title: 'Real-Time Messaging Web Application',
         info: 'Javascript   NodeJS   MongoDB',
         org: {
-            name: 'My Github',
-            color: '#f29420',
-            website: 'https://github.com/michaelconnor468/QuickShop'
+            name: 'chatter.michaelconnor.ca',
+            color: 'purple',
+            website: 'chatter.michaelconnor.ca'
         },
         description: [
-            'RESTful app with voice (Alexa) and web interfaces using MongoDB'
+            'Employs a RESTful API and websockets, with PostgreSQL storage and React UI',
+            'Features secure authentication with salted hashing of passwords',
+            'Deployed on AWS instance with a load balancer to provide SSL certificate'
         ]
     },
     {
@@ -53,6 +41,20 @@ const content = [
         description: [
             'Library used to write and read java objects into a modified JSON format',
             'Full unit testing coverage with JUnit testing library'
+        ]
+    },
+    {
+        image: 'resources/images/krisp.png',
+        title: 'Krisp Language and Compiler',
+        info: 'Java',
+        org: {
+            name: 'My Github',
+            color: '#33a933',
+            website: 'https://github.com/michaelconnor468/KrispCompiler'
+        },
+        description: [
+            'Front end compiler that generates intermediate machine code easily translatable to x86-64 and ARM',
+            'Krisp is a made up programming language that supports basic constructs such as variables and loops'
         ]
     },
     {
