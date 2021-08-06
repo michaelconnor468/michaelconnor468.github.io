@@ -21,7 +21,7 @@ const content = [
         org: {
             name: 'Chatter',
             color: 'purple',
-            website: 'chatter.michaelconnor.ca'
+            website: 'https://chatter.michaelconnor.ca'
         },
         description: [
             'Employs a RESTful API and websockets, with PostgreSQL storage and React UI',
