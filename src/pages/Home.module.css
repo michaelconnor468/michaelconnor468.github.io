@@ -76,6 +76,7 @@
 
     .education {
         margin-top: 4rem;
+        width: 98%;
         flex-direction: column-reverse;
     }
 }
