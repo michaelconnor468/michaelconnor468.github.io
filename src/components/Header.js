@@ -18,9 +18,7 @@ const Header = (props) => {
                     <button onClick={() => {setNavOpen(false); props.setBody(<Home />);}}>Home</button>
                     <button onClick={() => {setNavOpen(false); props.setBody(<Experience />);}}>Experience</button>
                     <button onClick={() => {setNavOpen(false); props.setBody(<Projects />);}}>Projects</button>
-                    {/*<button>Interests</button>*/}
                     <button onClick={() => {setNavOpen(false); window.open('resources/Resume.pdf', '_blank');}}>Resume</button>
-                    {/*<button>Contact</button>*/}
                 </nav>
                 <nav className={styles.socials}>
                     <div onClick={() => window.open('https://www.linkedin.com/in/michael-c-32a934163', '_blank')}><img src='resources/images/linkedin.png'/></div>
