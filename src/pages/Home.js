@@ -17,12 +17,12 @@ const Home = () => {
             <div className={styles.education}>
                 <div>
                     <img src='resources/images/uoft.png' />
-                    <h1><b>Bachelor's in Computer Science</b> at <a href='https://www.utoronto.ca' target='_blank' style={{color: '#002a5c'}}>University of Toronto</a></h1>
+                    <h1><b>{`Bachelor's in Computer Science`}</b> at <a href='https://www.utoronto.ca' target='_blank' style={{color: '#002a5c'}}>University of Toronto</a></h1>
                     <h2>2017-2021</h2>
                 </div>
                 <div>
                     <img src='resources/images/gatech.gif' />
-                    <h1><b>Master's in Computer Science</b> at <a href ='https://www.gatech.edu' target='_blank' style={{color: '#A4925A'}}>Georgia Institute of Technology</a></h1>
+                    <h1><b>{`Master's in Computer Science`}</b> at <a href ='https://www.gatech.edu' target='_blank' style={{color: '#A4925A'}}>Georgia Institute of Technology</a></h1>
                     <h2>2021-2023</h2>
                 </div>
             </div>
