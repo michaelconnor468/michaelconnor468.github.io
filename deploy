@@ -1,0 +1,19 @@
+#!/bin/bash
+
+function route {
+    case $1 in
+        -h) 
+            echo "Shell script to deploy web server"
+        ;;
+        -s)
+            echo "TODO start server here"
+        ;;
+    esac
+}
+
+for arg in "$@"
+do
+    if [[ "$arg" =~ -. ]]; then
+        route "$arg"
+    fi
+done
