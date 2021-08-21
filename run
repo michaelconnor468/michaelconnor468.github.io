@@ -1,0 +1,32 @@
+#!/bin/bash
+
+function route {
+    case $1 in
+        -h) 
+            echo "Shell script to deploy web server"
+        ;;
+        -p)
+            echo "Starting server on port $2"
+        ;;
+    esac
+}
+
+declare -i i
+i=0
+
+if [[ ! "$1" =~ -. ]]; then
+    route "$1"
+    shift
+fi
+
+while [[ $i < $# ]]
+do
+    if [[ "$1" =~ -. ]]; then
+        if [[ $i < $(($# - 1)) && ! "$2" =~ -. ]]; then
+            route $1 $2             
+        else
+            route "$1"
+        fi
+    fi
+    shift
+done
