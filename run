@@ -9,6 +9,9 @@ function route {
             echo "Starting server on port $2"
             node init.js -p $2
         ;;
+        *)
+            echo $'Usage:\n\t-p Start server at the specified port number\n\t-h Program description'
+        ;;
     esac
 }
 
