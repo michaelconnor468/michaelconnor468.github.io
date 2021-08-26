@@ -13,12 +13,15 @@ const Project = (props) => {
             <div className={styles.content}>
                 <h1 className={styles.title}><b>{data.title}</b> {data.org ? <><>at</> <a target='_blank' href={data.org.website} style={{color: data.org.color}}>{data.org.name}</a></> : <></>}</h1>
                 <h1 className={styles.info}>{info}</h1>
-                {data.description ? <>
-                <hr />
-                <ul>
-                    {data.description.map(point => <li>{point}</li>)}
-                </ul>
-                </> : <></>}
+                {data.description ? 
+                    <>
+                        <hr />
+                        <ul>
+                            {data.description.map(point => <li>{point}</li>)}
+                        </ul>
+                    </> :
+                    <></>
+                }
             </div>
         </div>
     );
