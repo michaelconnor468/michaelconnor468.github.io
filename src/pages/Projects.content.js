@@ -20,7 +20,7 @@ const content = [
         info: 'C++',
         org: {
             name: 'Georiga Institute of Technology',
-            color: '#FFDA00',
+            color: '#A4925A',
             website: 'michaelconnor.ca'
         },
         description: [
