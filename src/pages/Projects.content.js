@@ -21,7 +21,7 @@ const content = [
         org: {
             name: 'Georiga Institute of Technology',
             color: '#A4925A',
-            website: 'michaelconnor.ca'
+            website: 'https://michaelconnor.ca'
         },
         description: [
             'Distributed file system allowing for storage and retrieval of files on remote servers',
