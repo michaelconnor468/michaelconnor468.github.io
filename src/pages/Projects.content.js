@@ -1,20 +1,5 @@
 const content = [
     {
-        image: 'resources/images/mystic.png',
-        title: 'Open World Game',
-        info: 'Java',
-        org: {
-            name: 'My Github',
-            color: '#006618',
-            website: 'https://github.com/michaelconnor468/Mystic'
-        },
-        description: [
-            'Scalable multi-threading capable of utilizing high-core processors',
-            'Completely modifiable and dynamically loaded infinite open world',
-            'Regression unit testing using the JUnit library'
-        ]
-    },
-    {
         image: 'resources/images/chatter.png',
         title: 'Real-Time Messaging Web Application',
         info: 'Typescript   NodeJS   PostgreSQL',
@@ -30,17 +15,33 @@ const content = [
         ]
     },
     {
-        image: 'resources/images/json.png',
-        title: 'JSON Parsing Library',
+        image: 'resources/images/krisp.png',
+        title: 'Distributed File System',
+        info: 'C++',
+        org: {
+            name: 'Georiga Institute of Technology',
+            color: '#FFDA00',
+            website: 'michaelconnor.ca'
+        },
+        description: [
+            'Distributed file system allowing for storage and retrieval of files on remote servers',
+            'Weak consistancy model to allow for higher throughput in concurrent file accesses',
+            'Distributed locking construct to allow synchronization of file writes'
+        ]
+    },
+    {
+        image: 'resources/images/mystic.png',
+        title: 'Open World Game',
         info: 'Java',
         org: {
             name: 'My Github',
-            color: '#000000',
-            website: 'https://github.com/michaelconnor468/JSONParse'
+            color: '#006618',
+            website: 'https://github.com/michaelconnor468/Mystic'
         },
         description: [
-            'Library used to write and read java objects into a modified JSON format',
-            'Full unit testing coverage with JUnit testing library'
+            'Scalable multi-threading capable of utilizing high-core processors',
+            'Completely modifiable and dynamically loaded infinite open world',
+            'Regression unit testing using the JUnit library'
         ]
     },
     {

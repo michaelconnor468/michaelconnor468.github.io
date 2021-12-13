@@ -13,8 +13,8 @@ const content = [
         },
         description: [
             'Developed RESTful and RPC based APIs in agile environment',
-            'Designed batching system for user operations reducing network load ',
-            'Improved services API to allow for better tolerance of server side errors'
+            'Developed authentication system with two-factor authentication',
+            'Designed batching for services reducing network load and service latency'
         ]
     },
     {
