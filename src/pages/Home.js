@@ -9,9 +9,9 @@ const Home = () => {
 	        <img src='resources/images/jay.jpg'/>
 	        <h1>Michael J. Connor</h1>
 	        <h2>Software Engineer</h2>
-            <p>Welcome to my webpage! I am a software engineer currently studying for my MSCS at the Georgia Institute of Technology. 
-                I enjoy building and learning new things while meeting great and like-minded people. My interests are a whole host of
-                subjects including mathematics, systems engineering, networking, and compilers. Feel free to browse my projects,  
+            <p>
+                Welcome to my webpage! I am a software engineer currently studying for my Masters in Computer Science at the Georgia Institute of Technology 
+                with a focus in Distributed Systems. I enjoy building and learning new things while meeting great and like-minded people. Feel free to browse my projects,  
                 connect with me, or just say hello!
             </p>
             <div className={styles.education}>
